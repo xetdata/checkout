@@ -1,2 +1,2 @@
-# checkout-action
-Composite action for checking out a git-xet repository from GitHub Actions
+# checkout
+Action for checking out a git-xet repository from GitHub Actions
