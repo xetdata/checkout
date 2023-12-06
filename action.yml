@@ -10,6 +10,7 @@ runs:
           sudo mv git-xet /usr/bin/
           which git-xet
           git xet install
+      shell: bash
     - name: Checkout
       uses: actions/checkout@v4
       with:
@@ -17,6 +18,8 @@ runs:
     - name: Check checkout
       run: |
         ls -la .
+      shell: bash
     - name: Pull
       run: |
         git xet checkout
+      shell: bash
