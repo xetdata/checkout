@@ -15,11 +15,3 @@ runs:
       uses: actions/checkout@v4
       with:
         ref: "main"
-    - name: Check checkout
-      run: |
-        ls -la .
-      shell: bash
-    - name: Pull
-      run: |
-        git xet checkout
-      shell: bash
